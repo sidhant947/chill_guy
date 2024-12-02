@@ -12,7 +12,7 @@ Chill Guy Timer Project to Shut Down in Windows. In Android/iOS it closes app as
 
 2. **Tap below to download from Play Store**:
 
-    <a href="https://play.google.com/store/apps/details?id=com.sidhant.wallet"><img src="https://github.com/user-attachments/assets/5ff479ee-9c86-47fd-a583-2a4f8f10633e" width="250"></a>
+    <a href="https://play.google.com/store/apps/details?id=com.sidhant.chill_guy"><img src="https://github.com/user-attachments/assets/5ff479ee-9c86-47fd-a583-2a4f8f10633e" width="250"></a>
 
 
 
