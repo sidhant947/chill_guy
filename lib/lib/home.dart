@@ -1,8 +1,11 @@
 import 'package:animate_do/animate_do.dart';
+import 'package:chill_guy/lib/youtube.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:async';
 import 'dart:io';
+
+import 'package:icons_plus/icons_plus.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -78,6 +81,17 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions:[ GestureDetector(
+          onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> const Youtube()));
+          },
+          child: Padding(
+            padding: const EdgeInsets.only(right: 20),
+            child: Brand(Brands.youtube,size: 35,),
+          ),
+        ),]
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
